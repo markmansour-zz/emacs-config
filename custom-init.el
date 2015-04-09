@@ -1,3 +1,5 @@
+;; Great tips from:
+;; * http://www.aaronbedra.com/emacs.d/
 (cond
  ((string-equal system-type "windows-nt") ; Microsoft Windows
   (progn
