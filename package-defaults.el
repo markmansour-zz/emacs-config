@@ -3,7 +3,7 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (setq package-archive-enable-alist '(("melpa" deft magit)))
 
@@ -15,6 +15,7 @@
 			    solarized-theme
 			    web-mode
 			    writegood-mode
+			    edit-server
 			    yaml-mode)
   "Default packages")
 
