@@ -1,4 +1,4 @@
-(defvar --backup-directory (concat (getenv "USERPROFILE") "backups"))
+(defvar --backup-directory (concat (getenv "USERPROFILE") "/backups"))
 (if (not (file-exists-p --backup-directory))
         (make-directory --backup-directory t))
 (setq backup-directory-alist `(("." . ,--backup-directory)))
