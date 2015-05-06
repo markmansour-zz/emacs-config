@@ -14,3 +14,6 @@
 
 ;; let me just type y/n
 (defalias 'yes-or-no-p 'y-or-n-p)
+
+;; copy highlighted text to the clipboard
+(setq mouse-drag-copy-region t)
