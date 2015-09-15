@@ -21,6 +21,7 @@
       (load (concat rootpath "language-modes.el"))
       (load (concat rootpath "look-and-feel.el"))
       (load (concat rootpath "navigation.el"))
+      (load (concat rootpath "tramp-config.el"))
       (load (concat rootpath "spelling.el"))
       )
     )
